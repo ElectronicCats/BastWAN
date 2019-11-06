@@ -1,4 +1,12 @@
-# BastWAN
+# Bast-WAN
+
+Bast WAN is all the best in the world format Feather and LoRa with a SAML21 M0+ core, 32 bits of power!, Feather pin to pin compatible with a micro USB port.
+
+Bast-WAN is supported in the Arduino development environment and Circuit Python coming soon
+
+#License
+
+Electronic Cats invests time and resources providing this open source design, please support Electronic Cats and open-source hardware by purchasing products from Electronic Cats!
 
 Designed by Electronic Cats.
 
