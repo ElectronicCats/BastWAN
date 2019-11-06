@@ -397,7 +397,7 @@ Text Label 9765 3100 0    50   ~ 0
 SWDIO
 Text Label 9780 2050 0    50   ~ 0
 MISO
-Text Label 9770 3200 0    50   ~ 0
+Text Label 9775 2150 0    50   ~ 0
 A5_AREF
 Text Label 9775 1400 0    50   ~ 0
 MOSI
@@ -421,7 +421,7 @@ Text Label 8085 1700 0    50   ~ 0
 A3
 Text Label 8080 1800 0    50   ~ 0
 A2
-Text Label 9775 2150 0    50   ~ 0
+Text Label 9770 3200 0    50   ~ 0
 A4
 Text Label 8085 1600 0    50   ~ 0
 D5
@@ -1346,6 +1346,7 @@ Text Label 3145 6495 0    50   ~ 0
 SCK
 Wire Wire Line
 	6010 1645 6195 1645
-NoConn ~ 2985 2195
 NoConn ~ 2985 1495
+Text Label 2985 2195 2    50   ~ 0
+D3
 $EndSCHEMATC
