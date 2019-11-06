@@ -105,8 +105,6 @@ Wire Wire Line
 	4135 1295 4185 1295
 Text Label 2985 1295 2    50   ~ 0
 RST
-Text Label 2985 1495 2    50   ~ 0
-A5_AREF
 Text Label 2985 1695 2    50   ~ 0
 A0
 Text Label 2985 1795 2    50   ~ 0
@@ -117,8 +115,6 @@ Text Label 2985 1995 2    50   ~ 0
 A3
 Text Label 2985 2095 2    50   ~ 0
 A4
-Text Label 2985 2195 2    50   ~ 0
-A5_AREF
 Text Label 2985 2295 2    50   ~ 0
 SCK
 Text Label 2985 2395 2    50   ~ 0
@@ -929,7 +925,7 @@ Connection ~ 6035 4955
 Wire Wire Line
 	6035 4955 6035 4865
 Text Label 5865 4955 2    50   ~ 0
-A4
+A0
 $Comp
 L power:+BATT #PWR020
 U 1 1 5DE0D95C
@@ -1350,4 +1346,6 @@ Text Label 3145 6495 0    50   ~ 0
 SCK
 Wire Wire Line
 	6010 1645 6195 1645
+NoConn ~ 2985 2195
+NoConn ~ 2985 1495
 $EndSCHEMATC
