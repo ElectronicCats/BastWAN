@@ -22,6 +22,7 @@ F 0 "J1" H 1140 1650 50  0000 C CNN
 F 1 "USB_B_Micro" V 890 1300 50  0000 C CNN
 F 2 "Connectors:629105150521" H 1290 1250 50  0001 C CNN
 F 3 "~" H 1290 1250 50  0001 C CNN
+F 4 "629105150521" H 0   0   50  0001 C CNN "manf#"
 	1    1140 1300
 	1    0    0    -1  
 $EndComp
@@ -59,6 +60,7 @@ F 0 "J2" H 3935 2395 50  0000 C CNN
 F 1 "Conn_Right" V 4035 1595 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 3935 1795 50  0001 C CNN
 F 3 "~" H 3935 1795 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "manf#"
 	1    3935 1795
 	-1   0    0    -1  
 $EndComp
@@ -70,6 +72,7 @@ F 0 "J3" H 3285 2795 50  0000 C CNN
 F 1 "Conn_Left" V 3385 1995 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical" H 3285 1995 50  0001 C CNN
 F 3 "~" H 3285 1995 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "manf#"
 	1    3285 1995
 	1    0    0    -1  
 $EndComp
@@ -251,6 +254,7 @@ F 0 "J4" V 4225 4640 50  0000 L CNN
 F 1 "Conn_Battery" H 4125 4440 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical" H 4075 4540 50  0001 C CNN
 F 3 "~" H 4075 4540 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "manf#"
 	1    4075 4540
 	0    -1   -1   0   
 $EndComp
@@ -262,6 +266,7 @@ F 0 "U1" H 8930 1525 50  0000 C CNN
 F 1 "RAK4260" H 8930 1434 50  0000 C CNN
 F 2 "bast-wan:RAK4260-footprint_w_solder_paste" H 8555 800 50  0001 C CNN
 F 3 "" H 8555 800 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "manf#"
 	1    8905 1150
 	1    0    0    -1  
 $EndComp
@@ -474,6 +479,7 @@ F 0 "U2" H 2425 4875 50  0000 C CNN
 F 1 "AP2112K-3.3TRG1" H 2425 4784 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 2425 4405 50  0001 L BNN
 F 3 "SOT-753 Diodes Inc." H 2425 4405 50  0001 L BNN
+F 4 "AP2112K-3.3TRG1" H 0   0   50  0001 C CNN "manf#"
 	1    2425 4405
 	1    0    0    -1  
 $EndComp
@@ -485,6 +491,7 @@ F 0 "U5" H 1705 6925 50  0000 C CNN
 F 1 "MCP73831-3-OT" H 1030 6940 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 1490 6425 50  0001 L CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 1290 6625 50  0001 C CNN
+F 4 "MCP73831T-5ACI/OT" H 0   0   50  0001 C CNN "manf#"
 	1    1440 6675
 	1    0    0    -1  
 $EndComp
@@ -496,6 +503,7 @@ F 0 "AE1" H 6154 1284 50  0000 L CNN
 F 1 "Antenna" H 6154 1193 50  0000 L CNN
 F 2 "bast-wan:SMA_EDGE" H 6010 1345 50  0001 C CNN
 F 3 "~" H 6010 1345 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "manf#"
 	1    6010 1245
 	1    0    0    -1  
 $EndComp
@@ -507,6 +515,7 @@ F 0 "C2" V 6250 1730 50  0000 C CNN
 F 1 "47pF" V 6350 1765 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6295 1645 50  0001 C CNN
 F 3 "~" H 6295 1645 50  0001 C CNN
+F 4 "885342007006" H 0   0   50  0001 C CNN "manf#"
 	1    6295 1645
 	0    1    1    0   
 $EndComp
@@ -580,6 +589,7 @@ F 0 "C3" H 1560 4405 50  0000 L CNN
 F 1 "10uF" H 1485 4270 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1700 4345 50  0001 C CNN
 F 3 "~" H 1700 4345 50  0001 C CNN
+F 4 "CL21A106KOQNNNG" H 0   0   50  0001 C CNN "manf#"
 	1    1700 4345
 	1    0    0    -1  
 $EndComp
@@ -588,9 +598,10 @@ L Diode:MBR340 D2
 U 1 1 5DCC3391
 P 1270 4205
 F 0 "D2" V 1140 4310 50  0000 R CNN
-F 1 "MBR340" V 1250 4550 50  0000 R CNN
+F 1 "MBR120" V 1250 4550 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 1270 4030 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF" H 1270 4205 50  0001 C CNN
+F 4 "MBR120VLSFT3G" V 1270 4205 50  0001 C CNN "manf#"
 	1    1270 4205
 	-1   0    0    1   
 $EndComp
@@ -620,6 +631,7 @@ F 0 "C4" H 3112 4406 50  0000 L CNN
 F 1 "10uF" H 3112 4315 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3020 4360 50  0001 C CNN
 F 3 "~" H 3020 4360 50  0001 C CNN
+F 4 "CL21A106KOQNNNG" H 0   0   50  0001 C CNN "manf#"
 	1    3020 4360
 	1    0    0    -1  
 $EndComp
@@ -631,6 +643,7 @@ F 0 "C5" H 2207 6721 50  0000 L CNN
 F 1 "10uF" H 2207 6630 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2115 6675 50  0001 C CNN
 F 3 "~" H 2115 6675 50  0001 C CNN
+F 4 "CL21A106KOQNNNG" H 0   0   50  0001 C CNN "manf#"
 	1    2115 6675
 	1    0    0    -1  
 $EndComp
@@ -687,6 +700,7 @@ F 0 "R2" H 860 4450 50  0000 L CNN
 F 1 "100K" V 1045 4290 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1120 4365 50  0001 C CNN
 F 3 "~" H 1120 4365 50  0001 C CNN
+F 4 "CRGCQ0805F100K" H 0   0   50  0001 C CNN "manf#"
 	1    1120 4365
 	1    0    0    -1  
 $EndComp
@@ -714,6 +728,7 @@ F 0 "Q1" H 1576 3991 50  0000 L CNN
 F 1 "DMG3415U-7" H 1520 3855 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1570 3870 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf" H 1370 3945 50  0001 L CNN
+F 4 "DMG3415U-7" H 0   0   50  0001 C CNN "manf#"
 	1    1370 3945
 	1    0    0    -1  
 $EndComp
@@ -790,9 +805,10 @@ L Device:R_Small R8
 U 1 1 5DD44C55
 P 1890 6990
 F 0 "R8" H 1949 7036 50  0000 L CNN
-F 1 "330" H 1949 6945 50  0000 L CNN
+F 1 "180" H 1949 6945 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1890 6990 50  0001 C CNN
 F 3 "~" H 1890 6990 50  0001 C CNN
+F 4 "RMCF0805JT180R" H 0   0   50  0001 C CNN "manf#"
 	1    1890 6990
 	1    0    0    -1  
 $EndComp
@@ -801,9 +817,10 @@ L Device:LED D4
 U 1 1 5DD4566A
 P 1890 7280
 F 0 "D4" V 1837 7358 50  0000 L CNN
-F 1 "LED" V 1928 7358 50  0000 L CNN
+F 1 "CHR" V 1928 7358 50  0000 L CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1890 7280 50  0001 C CNN
 F 3 "~" H 1890 7280 50  0001 C CNN
+F 4 "150080GS75000" H 0   0   50  0001 C CNN "manf#"
 	1    1890 7280
 	0    1    1    0   
 $EndComp
@@ -836,6 +853,7 @@ F 0 "R6" V 649 6775 50  0000 C CNN
 F 1 "1K" V 740 6775 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 845 6775 50  0001 C CNN
 F 3 "~" H 845 6775 50  0001 C CNN
+F 4 "CRCW08051K20FKEAC" H 0   0   50  0001 C CNN "manf#"
 	1    845  6775
 	0    1    1    0   
 $EndComp
@@ -862,6 +880,7 @@ F 0 "J5" H 9813 5041 50  0000 C CNN
 F 1 "SWD" H 9813 4950 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9705 4760 50  0001 C CNN
 F 3 "~" H 9705 4760 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "manf#"
 	1    9705 4760
 	1    0    0    -1  
 $EndComp
@@ -899,6 +918,7 @@ F 0 "R3" H 6094 4811 50  0000 L CNN
 F 1 "100K" H 6094 4720 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6035 4765 50  0001 C CNN
 F 3 "~" H 6035 4765 50  0001 C CNN
+F 4 "CRGCQ0805F100K" H 0   0   50  0001 C CNN "manf#"
 	1    6035 4765
 	1    0    0    -1  
 $EndComp
@@ -910,6 +930,7 @@ F 0 "R4" H 6094 5176 50  0000 L CNN
 F 1 "100K" H 6094 5085 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6035 5130 50  0001 C CNN
 F 3 "~" H 6035 5130 50  0001 C CNN
+F 4 "CRGCQ0805F100K" H 0   0   50  0001 C CNN "manf#"
 	1    6035 5130
 	1    0    0    -1  
 $EndComp
@@ -997,6 +1018,7 @@ F 0 "C1" H 7545 1290 50  0000 L CNN
 F 1 "0.1uF" H 7395 1160 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7660 1225 50  0001 C CNN
 F 3 "~" H 7660 1225 50  0001 C CNN
+F 4 "CL21F104ZBCNNNC" H 0   0   50  0001 C CNN "manf#"
 	1    7660 1225
 	1    0    0    -1  
 $EndComp
@@ -1021,6 +1043,7 @@ F 0 "SW1" H 6030 6665 50  0000 C CNN
 F 1 "RST" H 6030 6574 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 6030 6580 50  0001 C CNN
 F 3 "~" H 6030 6580 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "manf#"
 	1    6030 6380
 	1    0    0    -1  
 $EndComp
@@ -1050,9 +1073,10 @@ L Device:LED D3
 U 1 1 5DEB360B
 P 6145 6940
 F 0 "D3" H 6138 7156 50  0000 C CNN
-F 1 "LED" H 6138 7065 50  0000 C CNN
+F 1 "ON" H 6138 7065 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6145 6940 50  0001 C CNN
 F 3 "~" H 6145 6940 50  0001 C CNN
+F 4 "150080RS75000" H 0   0   50  0001 C CNN "manf#"
 	1    6145 6940
 	1    0    0    -1  
 $EndComp
@@ -1061,9 +1085,10 @@ L Device:R_Small R7
 U 1 1 5DEB4275
 P 5800 6940
 F 0 "R7" V 5604 6940 50  0000 C CNN
-F 1 "330" V 5695 6940 50  0000 C CNN
+F 1 "180" V 5695 6940 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5800 6940 50  0001 C CNN
 F 3 "~" H 5800 6940 50  0001 C CNN
+F 4 "RMCF0805JT180R" H 0   0   50  0001 C CNN "manf#"
 	1    5800 6940
 	0    1    1    0   
 $EndComp
@@ -1104,9 +1129,10 @@ L Device:LED D5
 U 1 1 5DED10AB
 P 6115 7595
 F 0 "D5" H 6108 7811 50  0000 C CNN
-F 1 "LED" H 6108 7720 50  0000 C CNN
+F 1 "D13" H 6108 7720 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6115 7595 50  0001 C CNN
 F 3 "~" H 6115 7595 50  0001 C CNN
+F 4 "150080BS75000" H 0   0   50  0001 C CNN "manf#"
 	1    6115 7595
 	1    0    0    -1  
 $EndComp
@@ -1115,9 +1141,10 @@ L Device:R_Small R9
 U 1 1 5DED10B1
 P 5770 7595
 F 0 "R9" V 5574 7595 50  0000 C CNN
-F 1 "330" V 5665 7595 50  0000 C CNN
+F 1 "180" V 5665 7595 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5770 7595 50  0001 C CNN
 F 3 "~" H 5770 7595 50  0001 C CNN
+F 4 "RMCF0805JT180R" H 0   0   50  0001 C CNN "manf#"
 	1    5770 7595
 	0    1    1    0   
 $EndComp
@@ -1150,6 +1177,7 @@ F 0 "R1" H 1904 4351 50  0000 L CNN
 F 1 "100K" H 1904 4260 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1845 4305 50  0001 C CNN
 F 3 "~" H 1845 4305 50  0001 C CNN
+F 4 "CRGCQ0805F100K" H 0   0   50  0001 C CNN "manf#"
 	1    1845 4305
 	1    0    0    -1  
 $EndComp
@@ -1182,6 +1210,7 @@ F 0 "U4" H 3420 6730 50  0000 C CNN
 F 1 "W25Q32JVSS" H 4050 6750 50  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 3765 6395 50  0001 C CNN
 F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 3765 6395 50  0001 C CNN
+F 4 "W25Q32JVSSIQ" H 0   0   50  0001 C CNN "manf#"
 	1    3765 6395
 	1    0    0    -1  
 $EndComp
@@ -1193,6 +1222,7 @@ F 0 "U3" H 7765 5231 50  0000 R CNN
 F 1 "ATECC608A-TNGLORA" H 7915 5485 50  0000 R CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7995 5185 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATECC608A-CryptoAuthentication-Device-Summary-Data-Sheet-DS40001977B.pdf" H 8145 5435 50  0001 C CNN
+F 4 "ATECC608A-SSHDA-T" H 0   0   50  0001 C CNN "manf#"
 	1    7995 5185
 	1    0    0    -1  
 $EndComp
@@ -1300,6 +1330,7 @@ F 0 "R5" H 3249 6171 50  0000 L CNN
 F 1 "100K" H 2960 6155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3190 6125 50  0001 C CNN
 F 3 "~" H 3190 6125 50  0001 C CNN
+F 4 "CRGCQ0805F100K" H 0   0   50  0001 C CNN "manf#"
 	1    3190 6125
 	1    0    0    -1  
 $EndComp

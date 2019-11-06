@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 18)
+    (drawings 20)
     (tracks 841)
     (zones 0)
     (modules 35)
@@ -19,8 +19,8 @@
   )
 
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -248,7 +248,7 @@
     (tags "SPST Tactile Switch")
     (path /5DE8948F)
     (attr smd)
-    (fp_text reference SW1 (at -6 0.55) (layer F.SilkS)
+    (fp_text reference SW1 (at -6 0.55) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value RST (at 0 3.75) (layer F.Fab)
@@ -954,7 +954,7 @@
     )
   )
 
-  (module Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5DC3FFD9)
+  (module Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5DC3F948)
     (at 149.55 87.425 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
@@ -996,7 +996,7 @@
     (tags "resistor handsolder")
     (path /5DDF3936)
     (attr smd)
-    (fp_text reference R3 (at -2.518 0.008) (layer F.SilkS)
+    (fp_text reference R3 (at -2.625 -0.05) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100K (at 0 1.65 270) (layer F.Fab)
@@ -1650,6 +1650,12 @@
       (net 35 /RST))
   )
 
+  (gr_text + (at 139.825 88.425) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text RST (at 133.275 99.05) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text GND (at 142.11 93.31 90) (layer B.SilkS) (tstamp 5DC320A2)
     (effects (font (size 1 1) (thickness 0.18)) (justify mirror))
   )
