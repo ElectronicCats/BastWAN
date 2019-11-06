@@ -928,17 +928,17 @@ Wire Wire Line
 Connection ~ 6035 4955
 Wire Wire Line
 	6035 4955 6035 4865
-Text Label 5865 4955 2    50   ~ 0
+Text Label 5565 4955 2    50   ~ 0
 A4
 $Comp
 L power:+BATT #PWR020
 U 1 1 5DE0D95C
-P 6035 4550
-F 0 "#PWR020" H 6035 4400 50  0001 C CNN
-F 1 "+BATT" H 6050 4723 50  0000 C CNN
-F 2 "" H 6035 4550 50  0001 C CNN
-F 3 "" H 6035 4550 50  0001 C CNN
-	1    6035 4550
+P 6035 4250
+F 0 "#PWR020" H 6035 4100 50  0001 C CNN
+F 1 "+BATT" H 6050 4423 50  0000 C CNN
+F 2 "" H 6035 4250 50  0001 C CNN
+F 3 "" H 6035 4250 50  0001 C CNN
+	1    6035 4250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1348,6 +1348,28 @@ Text Label 9780 2250 0    50   ~ 0
 SCK
 Text Label 3145 6495 0    50   ~ 0
 SCK
+$Comp
+L Jumper:SolderJumper_2_Bridged JP1
+U 1 1 5DC7232F
+P 5715 4955
+F 0 "JP1" H 5715 5160 50  0000 C CNN
+F 1 "A4" H 5715 5069 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5715 4955 50  0001 C CNN
+F 3 "~" H 5715 4955 50  0001 C CNN
+	1    5715 4955
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP2
+U 1 1 5DC73D31
+P 6035 4400
+F 0 "JP2" V 5989 4468 50  0000 L CNN
+F 1 "vcc" V 6080 4468 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6035 4400 50  0001 C CNN
+F 3 "~" H 6035 4400 50  0001 C CNN
+	1    6035 4400
+	0    1    1    0   
+$EndComp
 Wire Wire Line
 	6010 1645 6195 1645
 $EndSCHEMATC

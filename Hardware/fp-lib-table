@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name bast-wan)(type KiCad)(uri ${KIPRJMOD}/bast-wan.pretty)(options "")(descr ""))
+)
