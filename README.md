@@ -47,7 +47,7 @@ Comes fully assembled and tested, with the UF2 USB bootloader. We also toss in s
 
 Lipoly battery and USB cable not included (but we do have lots of options in the shop if you'd like!)
 
-#License
+# License
 
 Electronic Cats invests time and resources providing this open source design, please support Electronic Cats and open-source hardware by purchasing products from Electronic Cats!
 
