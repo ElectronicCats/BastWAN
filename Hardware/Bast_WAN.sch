@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Bast_WAN-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1217,13 +1217,13 @@ $EndComp
 $Comp
 L Bast_WAN-rescue:ATECC608A-SSHDA-Security U3
 U 1 1 5DF09E98
-P 7995 5185
-F 0 "U3" H 7765 5231 50  0000 R CNN
-F 1 "ATECC608A-TNGLORA" H 7915 5485 50  0000 R CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7995 5185 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATECC608A-CryptoAuthentication-Device-Summary-Data-Sheet-DS40001977B.pdf" H 8145 5435 50  0001 C CNN
-F 4 "ATECC608A-SSHDA-T" H 0   0   50  0001 C CNN "manf#"
-	1    7995 5185
+P 7355 5150
+F 0 "U3" H 7125 5196 50  0000 R CNN
+F 1 "ATECC608A-TNGLORA" H 7865 4815 50  0000 R CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7355 5150 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATECC608A-CryptoAuthentication-Device-Summary-Data-Sheet-DS40001977B.pdf" H 7505 5400 50  0001 C CNN
+F 4 "ATECC608A-SSHDA-T" H -640 -35 50  0001 C CNN "manf#"
+	1    7355 5150
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -1263,7 +1263,7 @@ MOSI
 Text Label 4385 6195 0    50   ~ 0
 MISO
 Text Label 3140 6295 2    50   ~ 0
-D3
+D10
 Wire Wire Line
 	3765 6795 3765 6870
 $Comp
@@ -1289,37 +1289,33 @@ F 3 "" H 3765 5870 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7995 5485 7995 5560
+	7355 5450 7355 5525
 Wire Wire Line
-	7995 4885 7995 4800
-Wire Wire Line
-	8295 5085 8440 5085
-Wire Wire Line
-	8295 5285 8435 5285
-Text Label 8440 5085 0    50   ~ 0
+	7355 4850 7355 4765
+Text Label 8025 5050 0    50   ~ 0
 SDA
-Text Label 8435 5285 0    50   ~ 0
+Text Label 8040 5250 0    50   ~ 0
 SCL
 $Comp
 L power:+3V3 #PWR024
 U 1 1 5DF927C3
-P 7995 4800
-F 0 "#PWR024" H 7995 4650 50  0001 C CNN
-F 1 "+3V3" H 8010 4973 50  0000 C CNN
-F 2 "" H 7995 4800 50  0001 C CNN
-F 3 "" H 7995 4800 50  0001 C CNN
-	1    7995 4800
+P 7355 4765
+F 0 "#PWR024" H 7355 4615 50  0001 C CNN
+F 1 "+3V3" H 7370 4938 50  0000 C CNN
+F 2 "" H 7355 4765 50  0001 C CNN
+F 3 "" H 7355 4765 50  0001 C CNN
+	1    7355 4765
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR028
 U 1 1 5DF936AC
-P 7995 5560
-F 0 "#PWR028" H 7995 5310 50  0001 C CNN
-F 1 "GND" H 8000 5387 50  0000 C CNN
-F 2 "" H 7995 5560 50  0001 C CNN
-F 3 "" H 7995 5560 50  0001 C CNN
-	1    7995 5560
+P 7355 5525
+F 0 "#PWR028" H 7355 5275 50  0001 C CNN
+F 1 "GND" H 7360 5352 50  0000 C CNN
+F 2 "" H 7355 5525 50  0001 C CNN
+F 3 "" H 7355 5525 50  0001 C CNN
+	1    7355 5525
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1378,6 +1374,63 @@ SCK
 Wire Wire Line
 	6010 1645 6195 1645
 NoConn ~ 2985 1495
-Text Label 2985 2195 2    50   ~ 0
-D3
+$Comp
+L Device:R_Small R?
+U 1 1 5DE7042C
+P 7740 4875
+F 0 "R?" H 7799 4921 50  0000 L CNN
+F 1 "3K3" H 7560 4875 50  0000 L CNN
+F 2 "" H 7740 4875 50  0001 C CNN
+F 3 "~" H 7740 4875 50  0001 C CNN
+	1    7740 4875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DE710D8
+P 7960 4870
+F 0 "R?" H 8019 4916 50  0000 L CNN
+F 1 "3K3" H 8019 4825 50  0000 L CNN
+F 2 "" H 7960 4870 50  0001 C CNN
+F 3 "~" H 7960 4870 50  0001 C CNN
+	1    7960 4870
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7655 5050 7960 5050
+Wire Wire Line
+	7655 5250 7740 5250
+Wire Wire Line
+	7740 4975 7740 5250
+Connection ~ 7740 5250
+Wire Wire Line
+	7740 5250 8040 5250
+Wire Wire Line
+	7960 4970 7960 5050
+Connection ~ 7960 5050
+Wire Wire Line
+	7960 5050 8025 5050
+Wire Wire Line
+	7960 4770 7960 4725
+Wire Wire Line
+	7960 4725 7855 4725
+Wire Wire Line
+	7740 4725 7740 4775
+Wire Wire Line
+	7855 4725 7855 4675
+Connection ~ 7855 4725
+Wire Wire Line
+	7855 4725 7740 4725
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5DEBCB35
+P 7855 4675
+F 0 "#PWR?" H 7855 4525 50  0001 C CNN
+F 1 "+3V3" H 7870 4848 50  0000 C CNN
+F 2 "" H 7855 4675 50  0001 C CNN
+F 3 "" H 7855 4675 50  0001 C CNN
+	1    7855 4675
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2985 2195
 $EndSCHEMATC
