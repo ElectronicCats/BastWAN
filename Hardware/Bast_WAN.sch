@@ -520,8 +520,6 @@ F 4 "885342007006" H 0   0   50  0001 C CNN "manf#"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6395 1645 6495 1645
-Wire Wire Line
 	6010 1445 6010 1645
 Wire Wire Line
 	6110 1445 6110 1490
@@ -536,7 +534,7 @@ F 3 "" H 6110 1490 50  0001 C CNN
 	1    6110 1490
 	1    0    0    -1  
 $EndComp
-Text Label 6495 1645 0    50   ~ 0
+Text Label 6965 1645 0    50   ~ 0
 ANT
 Wire Wire Line
 	1470 4205 1470 4145
@@ -1437,4 +1435,36 @@ Wire Wire Line
 Connection ~ 2985 1595
 Wire Wire Line
 	2985 1595 3085 1595
+$Comp
+L Device:D_TVS_ALT D1
+U 1 1 5E033E5A
+P 6615 1880
+F 0 "D1" V 6569 1959 50  0000 L CNN
+F 1 "PGB1010402KR" V 6660 1959 50  0000 L CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 6615 1880 50  0001 C CNN
+F 3 "~" H 6615 1880 50  0001 C CNN
+F 4 "PGB1010402KR" V 6615 1880 50  0001 C CNN "manf#"
+	1    6615 1880
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6395 1645 6615 1645
+Wire Wire Line
+	6615 1730 6615 1645
+Connection ~ 6615 1645
+Wire Wire Line
+	6615 1645 6965 1645
+$Comp
+L power:GND #PWR010
+U 1 1 5E04B598
+P 6615 2100
+F 0 "#PWR010" H 6615 1850 50  0001 C CNN
+F 1 "GND" H 6730 2075 50  0000 C CNN
+F 2 "" H 6615 2100 50  0001 C CNN
+F 3 "" H 6615 2100 50  0001 C CNN
+	1    6615 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6615 2030 6615 2100
 $EndSCHEMATC
