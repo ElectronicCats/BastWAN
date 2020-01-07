@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "Bast WAN"
 Date "2019-11-06"
-Rev "1.0"
+Rev "1.1"
 Comp "Electronic Cats"
 Comment1 ""
 Comment2 ""
@@ -472,7 +472,7 @@ D+
 Text Label 1600 1400 0    50   ~ 0
 D-
 $Comp
-L electroniccats:AP2112K-3.3TRG1 U2
+L Bast_WAN-rescue:AP2112K-3.3TRG1-electroniccats U2
 U 1 1 5DC7B9FC
 P 2425 4405
 F 0 "U2" H 2425 4875 50  0000 C CNN
@@ -520,8 +520,6 @@ F 4 "885342007006" H 0   0   50  0001 C CNN "manf#"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6395 1645 6495 1645
-Wire Wire Line
 	6010 1445 6010 1645
 Wire Wire Line
 	6110 1445 6110 1490
@@ -536,7 +534,7 @@ F 3 "" H 6110 1490 50  0001 C CNN
 	1    6110 1490
 	1    0    0    -1  
 $EndComp
-Text Label 6495 1645 0    50   ~ 0
+Text Label 6965 1645 0    50   ~ 0
 ANT
 Wire Wire Line
 	1470 4205 1470 4145
@@ -872,18 +870,6 @@ F 3 "" H 675 6910 50  0001 C CNN
 	1    675  6910
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x04_Male J5
-U 1 1 5DD709D8
-P 9705 4760
-F 0 "J5" H 9813 5041 50  0000 C CNN
-F 1 "SWD" H 9813 4950 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9705 4760 50  0001 C CNN
-F 3 "~" H 9705 4760 50  0001 C CNN
-F 4 "-" H 0   0   50  0001 C CNN "manf#"
-	1    9705 4760
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	2365 490  2365 3100
 Wire Notes Line
@@ -971,38 +957,30 @@ F 3 "" H 6035 5300 50  0001 C CNN
 $EndComp
 Text Notes 5580 4045 0    79   ~ 0
 LIPO MONITORING
-Wire Wire Line
-	9905 4660 10005 4660
-Wire Wire Line
-	9905 4760 10000 4760
-Wire Wire Line
-	9905 4860 10000 4860
-Wire Wire Line
-	9905 4960 10000 4960
-Text Label 10000 4760 0    50   ~ 0
+Text Label 10645 5105 0    50   ~ 0
 SWDIO
-Text Label 10000 4860 0    50   ~ 0
+Text Label 10645 5005 0    50   ~ 0
 SWCLK
 $Comp
 L power:GND #PWR025
 U 1 1 5DE306F1
-P 10000 4960
-F 0 "#PWR025" H 10000 4710 50  0001 C CNN
-F 1 "GND" H 10005 4787 50  0000 C CNN
-F 2 "" H 10000 4960 50  0001 C CNN
-F 3 "" H 10000 4960 50  0001 C CNN
-	1    10000 4960
+P 10100 5795
+F 0 "#PWR025" H 10100 5545 50  0001 C CNN
+F 1 "GND" H 10105 5622 50  0000 C CNN
+F 2 "" H 10100 5795 50  0001 C CNN
+F 3 "" H 10100 5795 50  0001 C CNN
+	1    10100 5795
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR021
 U 1 1 5DE311FD
-P 10005 4660
-F 0 "#PWR021" H 10005 4510 50  0001 C CNN
-F 1 "+3V3" H 10020 4833 50  0000 C CNN
-F 2 "" H 10005 4660 50  0001 C CNN
-F 3 "" H 10005 4660 50  0001 C CNN
-	1    10005 4660
+P 10145 4410
+F 0 "#PWR021" H 10145 4260 50  0001 C CNN
+F 1 "+3V3" H 10160 4583 50  0000 C CNN
+F 2 "" H 10145 4410 50  0001 C CNN
+F 3 "" H 10145 4410 50  0001 C CNN
+	1    10145 4410
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1437,4 +1415,64 @@ Wire Wire Line
 Connection ~ 2985 1595
 Wire Wire Line
 	2985 1595 3085 1595
+$Comp
+L Device:D_TVS_ALT D1
+U 1 1 5E033E5A
+P 6615 1880
+F 0 "D1" V 6569 1959 50  0000 L CNN
+F 1 "PGB1010402KR" V 6660 1959 50  0000 L CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 6615 1880 50  0001 C CNN
+F 3 "~" H 6615 1880 50  0001 C CNN
+F 4 "PGB1010402KR" V 6615 1880 50  0001 C CNN "manf#"
+	1    6615 1880
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6395 1645 6615 1645
+Wire Wire Line
+	6615 1730 6615 1645
+Connection ~ 6615 1645
+Wire Wire Line
+	6615 1645 6965 1645
+$Comp
+L power:GND #PWR010
+U 1 1 5E04B598
+P 6615 2100
+F 0 "#PWR010" H 6615 1850 50  0001 C CNN
+F 1 "GND" H 6730 2075 50  0000 C CNN
+F 2 "" H 6615 2100 50  0001 C CNN
+F 3 "" H 6615 2100 50  0001 C CNN
+	1    6615 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6615 2030 6615 2100
+$Comp
+L Connector:Conn_ARM_JTAG_SWD_10 J?
+U 1 1 5E14C8E7
+P 10145 5105
+F 0 "J?" H 9850 5645 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_10" V 9685 5515 50  0000 R CNN
+F 2 "" H 10145 5105 50  0001 C CNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 9795 3855 50  0001 C CNN
+	1    10145 5105
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10645 5205
+NoConn ~ 10645 5305
+Wire Wire Line
+	10100 5795 10100 5745
+Wire Wire Line
+	10100 5745 10045 5745
+Wire Wire Line
+	10045 5745 10045 5705
+Wire Wire Line
+	10100 5745 10145 5745
+Wire Wire Line
+	10145 5745 10145 5705
+Connection ~ 10100 5745
+Wire Wire Line
+	10145 4410 10145 4505
+Text Label 10645 4805 0    50   ~ 0
+RST
 $EndSCHEMATC
