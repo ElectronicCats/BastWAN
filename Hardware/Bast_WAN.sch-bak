@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Bast_WAN-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1198,9 +1197,9 @@ U 1 1 5DF09E98
 P 7355 5150
 F 0 "U3" H 7125 5196 50  0000 R CNN
 F 1 "ATECC608A-TNGLORA" H 7865 4815 50  0000 R CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7355 5150 50  0001 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm" H 7355 5150 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATECC608A-CryptoAuthentication-Device-Summary-Data-Sheet-DS40001977B.pdf" H 7505 5400 50  0001 C CNN
-F 4 "ATECC608A-SSHDA-T" H -640 -35 50  0001 C CNN "manf#"
+F 4 "ATECC608A-MAHCZ-T" H -640 -35 50  0001 C CNN "manf#"
 	1    7355 5150
 	1    0    0    -1  
 $EndComp
