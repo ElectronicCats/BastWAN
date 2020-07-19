@@ -1184,10 +1184,10 @@ L Bast_WAN-rescue:W25Q32JVSS-Memory_Flash U4
 U 1 1 5DF091DA
 P 3765 6395
 F 0 "U4" H 3420 6730 50  0000 C CNN
-F 1 "W25Q32JVSS" H 4050 6750 50  0000 C CNN
+F 1 "GD25Q16C" H 4050 6750 50  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 3765 6395 50  0001 C CNN
-F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 3765 6395 50  0001 C CNN
-F 4 "W25Q32JVSSIQ" H 0   0   50  0001 C CNN "manf#"
+F 3 "https://www.mouser.mx/datasheet/2/870/gd25q16c_v3.1_20200319-1668164.pdf" H 3765 6395 50  0001 C CNN
+F 4 "GD25Q16C" H 0   0   50  0001 C CNN "manf#"
 	1    3765 6395
 	1    0    0    -1  
 $EndComp

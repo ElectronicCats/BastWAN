@@ -4,3 +4,7 @@
 Hardware/Gerbers_bastwan_v1/
 
 Hardware/Gerbers_bastwan_v1.zip
+
+*.sch-bak
+
+Hardware/fp-info-cache
