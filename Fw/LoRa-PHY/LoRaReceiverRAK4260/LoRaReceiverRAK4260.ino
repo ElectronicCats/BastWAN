@@ -5,7 +5,8 @@ void setup() {
   Serial.begin(9600);
   //while (!Serial);
   pinMode(RFM_SWITCH,OUTPUT);
-  digitalWrite(RFM_SWITCH,0);
+  // RF switch 1 to Rx
+  digitalWrite(RFM_SWITCH,1);  
   Serial.println("LoRa Receiver");
   LoRa.setPins(SS, RFM_RST, RFM_DIO0);
   if (!LoRa.begin(915E6)) {
