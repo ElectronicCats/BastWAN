@@ -1,20 +1,20 @@
 # Bast-WAN
 
-Bast WAN is all the best in the world format Feather and LoRa with a SAML21 M0+ core, 32 bits of power!, Feather pin to pin compatible with a micro USB port.
+Bast WAN is all the best in the world format Feather and LoRa with a RAK4260 core, 32 bits of power!, Feather pin to pin compatible with a micro USB port.
 
-Bast-WAN is supported in the Arduino development environment and Circuit Python coming soon
+Bast-WAN is supported in the Arduino development environment.
 
 We love all our Feathers equally, but this Feather is very special. It's our first Feather that is specifically designed for use with CircuitPython! CircuitPython is our beginner-oriented flavor of MicroPython - and as the name hints at, its a small but full-featured version of the popular Python programming language specifically for use with circuitry and electronics.
 
 Please note, CircuitPython does not come preloaded. See the full guide linked below for instructions on installing it.
 
-That doesn't mean you cant also use it with Arduino IDE! At the Bast's heart is an ATSAML21G18 ARM Cortex M0+ processor, clocked at 48 MHz and at 3.3V logic, the same one used in the new Arduino Zero. This chip has a whopping 256K of FLASH (8x more than the Atmega328 or 32u4) and 32K of RAM (16x as much)! This chip comes with built in USB so it has USB-to-Serial program & debug capability built in with no need for an FTDI-like chip.
+That doesn't mean you cant also use it with Arduino IDE! At the Bast's heart is an RAK4260 ARM Cortex M0+ processor, clocked at 48 MHz and at 3.3V logic, the same one used in the new Arduino Zero. This chip has a whopping 256K of FLASH (8x more than the Atmega328 or 32u4) and 32K of RAM (16x as much)! This chip comes with built in USB so it has USB-to-Serial program & debug capability built in with no need for an FTDI-like chip.
 
 Here's some handy specs!
 
 - Measures 2.0" x 0.9" x 0.28" (51mm x 23mm x 8mm) without headers soldered in
 - Light as a (large?) feather - 5 grams
-- ATSAML21G18 @ 48MHz with 3.3V logic/power
+- RAK4260 @ 48MHz with 3.3V logic/power
 - 256KB of FLASH + 32KB of RAM
 - No EEPROM
 - 32.768 KHz crystal for clock generation & RTC
