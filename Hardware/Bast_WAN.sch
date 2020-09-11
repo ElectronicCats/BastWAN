@@ -248,14 +248,14 @@ EN
 $Comp
 L Connector_Generic:Conn_02x01 J4
 U 1 1 5D4DC9A5
-P 4075 4540
-F 0 "J4" V 4225 4640 50  0000 L CNN
-F 1 "Conn_Battery" H 4125 4440 50  0000 C CNN
-F 2 "bast-wan:JST_S2B-PH-SM4-TB(LF)(SN)" H 4075 4540 50  0001 C CNN
-F 3 "~" H 4075 4540 50  0001 C CNN
-F 4 "-" H 0   0   50  0001 C CNN "manf#"
-	1    4075 4540
-	0    -1   -1   0   
+P 4075 4440
+F 0 "J4" V 4225 4540 50  0000 L CNN
+F 1 "Conn_Battery" H 4125 4340 50  0000 C CNN
+F 2 "bast-wan:JST_S2B-PH-SM4-TB(LF)(SN)" H 4075 4440 50  0001 C CNN
+F 3 "~" H 4075 4440 50  0001 C CNN
+F 4 "-" H 0   -100 50  0001 C CNN "manf#"
+	1    4075 4440
+	0    1    1    0   
 $EndComp
 $Comp
 L Bast_WAN-rescue:RAK4260-electroniccats U1
