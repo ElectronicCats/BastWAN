@@ -401,8 +401,6 @@ Text Label 9765 3100 0    50   ~ 0
 SWDIO
 Text Label 9780 2050 0    50   ~ 0
 MOSI
-Text Label 9775 2150 0    50   ~ 0
-A5_AREF
 Text Label 9775 1400 0    50   ~ 0
 MISO
 Wire Wire Line
@@ -1248,7 +1246,6 @@ F 3 "" H 7855 4675 50  0001 C CNN
 	1    7855 4675
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2985 2195
 Wire Wire Line
 	2985 1495 2985 1595
 Connection ~ 2985 1595
@@ -1307,4 +1304,8 @@ F 3 "~" H 9885 4905 50  0001 C CNN
 $EndComp
 Text Notes 2690 5500 0    79   ~ 0
 LED
+Text Label 9775 2150 0    50   ~ 0
+D3
+Text Label 2985 2195 2    50   ~ 0
+D3
 $EndSCHEMATC
