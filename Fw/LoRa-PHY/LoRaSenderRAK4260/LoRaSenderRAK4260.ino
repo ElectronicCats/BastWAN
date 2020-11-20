@@ -8,7 +8,7 @@ void setup() {
   //while (!Serial);
 
   Serial.println("LoRa Sender");
-  pinMode(RFM_TCXO,OUTPUT);
+  pinMode(RFM_TCX_ON,OUTPUT);
   pinMode(RFM_SWITCH,OUTPUT);
   pinMode(LED_BUILTIN,OUTPUT);
   LoRa.setPins(SS,RFM_RST,RFM_DIO0);
