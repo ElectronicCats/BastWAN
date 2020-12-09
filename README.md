@@ -46,6 +46,10 @@ Comes fully assembled and tested, with the UF2 USB bootloader. We also toss in s
 
 Lipoly battery and USB cable not included (but we do have lots of options in the shop if you'd like!)
 
+<a href="https://electroniccats.com/store/nfc-copy-cat/">
+  <img src="https://electroniccats.com/wp-content/uploads/badge_store.png" width="200" height="104" />
+</a>
+
 # License
 
 ![OpenSourceLicense](https://github.com/ElectronicCats/AjoloteBoard/raw/master/OpenSourceLicense.png)
