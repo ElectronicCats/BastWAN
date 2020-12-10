@@ -43,7 +43,9 @@ void setup() {
     delay(5000);
     return;
   }
-
+  pinMode(RFM_TCX_ON,OUTPUT);
+  pinMode(RFM_SWITCH,OUTPUT);
+  pinMode(LED_BUILTIN,OUTPUT);
   // Set LoRaWAN Class change CLASS_A or CLASS_C
   lora.setDeviceClass(CLASS_A);
 
