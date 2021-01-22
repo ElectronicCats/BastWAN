@@ -10,7 +10,7 @@
  * please buy us a round!
  * Distributed as-is; no warranty is given.
  */
-#include <lorawan.h>
+#include <lorawan.h> // Library Beelan http://librarymanager/All#Beelan
 
 //ABP Credentials 
 const char *devAddr = "00000000";
