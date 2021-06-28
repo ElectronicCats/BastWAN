@@ -2,7 +2,7 @@
 
 BastWAN is all the best in the world format Feather and LoRa with a RAK4260 core, 32 bits of power!, Feather pin to pin compatible with a micro USB port.
 
-BastWAN is supported in the [Arduino development environment](https://github.com/ElectronicCats/ArduinoCore-samd).
+BastWAN is supported in the [Arduino development environment](https://github.com/ElectronicCats/ArduinoCore-samd) and [RIOT OS on BastWan and LowPower](https://github.com/h-filzer/samr34-lorawan-smt50).
 
 We love all our Feathers equally, but this Feather is very special.
 
