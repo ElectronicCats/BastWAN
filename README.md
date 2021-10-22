@@ -48,6 +48,14 @@ Lipoly battery and USB cable not included (but we do have lots of options in the
   <img src="https://electroniccats.com/wp-content/uploads/badge_store.png" width="200" height="104" />
 </a>
 
+## Links & References
+
+* [Hackster Blog post](https://www.hackster.io/electronic-cats/how-to-use-rak4260-with-arduino-ide-4bcff2)
+* [Additional Boards Manager to install BastWan in Arduino IDE](https://electroniccats.github.io/Arduino_Boards_Index/package_electroniccats_index.json)
+* [LoRa library](https://github.com/sandeepmistry/arduino-LoRa)
+* [Bast-Wan repository](https://github.com/ElectronicCats/Bast-WAN)
+* [Kongduino's blog post](https://kongduino.wordpress.com/2020/07/24/bastwan/)
+
 # License
 
 ![OpenSourceLicense](https://github.com/ElectronicCats/AjoloteBoard/raw/master/OpenSourceLicense.png)
