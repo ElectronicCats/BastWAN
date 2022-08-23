@@ -48,6 +48,12 @@ Lipoly battery and USB cable not included (but we do have lots of options in the
   <img src="https://electroniccats.com/wp-content/uploads/badge_store.png" width="200" height="104" />
 </a>
 
+## Wiki and Getting Started
+
+[Getting Started in our Wiki](https://github.com/ElectronicCats/BastWAN/wiki)
+
+<img src="https://raw.githubusercontent.com/wiki/ElectronicCats/BastWAN/assets/BastWAN.jpg" />
+
 ## Links & References
 
 * [Hackster Blog post](https://www.hackster.io/electronic-cats/how-to-use-rak4260-with-arduino-ide-4bcff2)
