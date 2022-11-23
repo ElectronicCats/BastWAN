@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\DELL\OneDrive\Documentos\GitHub\BastWAN\Hardware\Bast_WAN.kicad_sch</source>
+    <date>23/11/2022 03:12:51 p. m.</date>
+    <tool>Eeschema (6.0.4)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Bast WAN</title>
+        <company>Electronic Cats</company>
+        <rev>2.0v</rev>
+        <date>2020-09-11</date>
+        <source>Bast_WAN.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value="Eduardo Contreras"/>
+        <comment number="4" value="Andres Sabas"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="AE1">
+      <value>Antenna</value>
+      <footprint>bast-wan:SMA_EDGE</footprint>
+      <fields>
+        <field name="manf#">-</field>
+      </fields>
+      <libsource lib="Device" part="Antenna_Shield" description="Antenna with extra pin for shielding"/>
+      <property name="manf#" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dc7de85</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">0603YG104ZAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="manf#" value="0603YG104ZAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005de8000a</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>47pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">0603CG470J500NT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="manf#" value="0603CG470J500NT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dc7f1dd</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">GRM188R61C106MA73D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="manf#" value="GRM188R61C106MA73D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dcc28bd</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">GRM188R61C106MA73D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="manf#" value="GRM188R61C106MA73D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dcd7972</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">GRM188R61C106MA73D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="manf#" value="GRM188R61C106MA73D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dcd8443</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>MBR120</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF</datasheet>
+      <fields>
+        <field name="manf#">MBR120LSF</field>
+      </fields>
+      <libsource lib="Diode" part="MBR340" description="40V 3A Schottky Barrier Rectifier Diode, DO-201AD"/>
+      <property name="manf#" value="MBR120LSF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dcc3391</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>CHR</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">NCD0805G1</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="manf#" value="NCD0805G1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dd4566a</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>D13</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">BL-HB335A-TRE</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="manf#" value="BL-HB335A-TRE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ded10ab</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB_B_Micro</value>
+      <footprint>Connectors:U254051N4BH806</footprint>
+      <fields>
+        <field name="manf#">U254-051N-4BH806</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="manf#" value="U254-051N-4BH806"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d4d715b</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_Right</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="manf#">-</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x12" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="manf#" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d4e69e8</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_Left</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="manf#">-</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x16" description="Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="manf#" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d4e7baf</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_Battery</value>
+      <footprint>bast-wan:JST_S2B-PH-SM4-TB(LF)(SN)</footprint>
+      <fields>
+        <field name="manf#">-</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x01" description="Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="manf#" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d4dc9a5</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>SWD</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e1a06d2</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>DMG3415U-7</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMG2301L.pdf</datasheet>
+      <fields>
+        <field name="manf#">DMG3415UQ-7</field>
+      </fields>
+      <libsource lib="Bast_WAN-rescue" part="DMG2301L-Transistor_FET" description=""/>
+      <property name="manf#" value="DMG3415UQ-7"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dd047c9</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RC0603FR-07100KL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf#" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dee52da</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RC0603FR-07100KL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf#" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dcf8e25</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RC0603JR-071ML</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf#" value="RC0603JR-071ML"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ddf3936</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1.5M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RC0603JR-071M5L</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf#" value="RC0603JR-071M5L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ddf421c</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RS-03K4701FT</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf#" value="RS-03K4701FT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dd5d374</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RC0603FR-07330RL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf#" value="RC0603FR-07330RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dd44c55</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RC0603FR-07330RL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf#" value="RC0603FR-07330RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ded10b1</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RC0603JR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf#" value="RC0603JR-0710KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005de7042c</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RC0603JR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf#" value="RC0603JR-0710KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005de710d8</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>RST</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="manf#">TS-1187A-C-C-B</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="manf#" value="TS-1187A-C-C-B"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005de8948f</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>RAK4260</value>
+      <footprint>bast-wan:RAK4260-footprint_w_solder_paste</footprint>
+      <fields>
+        <field name="manf#">-</field>
+      </fields>
+      <libsource lib="Bast_WAN-rescue" part="RAK4260-electroniccats" description=""/>
+      <property name="manf#" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dc2c674</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AP2112K-3.3TRG1</value>
+      <footprint>Package_TO_SOT_SMD:TSOT-23-5</footprint>
+      <datasheet>SOT-753 Diodes Inc.</datasheet>
+      <fields>
+        <field name="manf#">AP2112K-3.3TRG1</field>
+      </fields>
+      <libsource lib="Bast_WAN-rescue" part="AP2112K-3.3TRG1-electroniccats" description=""/>
+      <property name="manf#" value="AP2112K-3.3TRG1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dc7b9fc</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>ATECC608A-TNGLORA</value>
+      <footprint>Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/ATECC608A-CryptoAuthentication-Device-Summary-Data-Sheet-DS40001977B.pdf</datasheet>
+      <fields>
+        <field name="manf#">ATECC608A-MAHCZ-T</field>
+      </fields>
+      <libsource lib="Bast_WAN-rescue" part="ATECC608A-SSHDA-Security" description=""/>
+      <property name="manf#" value="ATECC608A-MAHCZ-T"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005df09e98</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>MCP73831-3-OT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</datasheet>
+      <fields>
+        <field name="manf#">MCP73831T-5ACI/OT</field>
+      </fields>
+      <libsource lib="Battery_Management" part="MCP73831-3-OT" description="Single cell, Li-Ion/Li-Po charge management controller, 4.35V, Tri-State Status Output, in SOT23-5 package"/>
+      <property name="manf#" value="MCP73831T-5ACI/OT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/BastWAN/Hardware/Bast_WAN.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dc7cd09</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Bast_WAN-rescue" part="AP2112K-3.3TRG1-electroniccats">
+      <docs>SOT-753 Diodes Inc.</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2112K-3.3TRG1-electroniccats</field>
+        <field name="Footprint">SOT95P285X140-5N</field>
+        <field name="Datasheet">SOT-753 Diodes Inc.</field>
+        <field name="Field4">0.15 USD</field>
+        <field name="Field5">Diodes Inc.</field>
+        <field name="Field6">AP2112K-3.3TRG1</field>
+        <field name="Field7">Good</field>
+        <field name="Field8">AP2112 Series 0.6 A 3.3 V Fixed Output SMT LDO Linear Regulator - SOT23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="5" name="VOUT" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Bast_WAN-rescue" part="ATECC608A-SSHDA-Security">
+      <footprints>
+        <fp>SOIC*8*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATECC608A-SSHDA-Security</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="bidirectional"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Bast_WAN-rescue" part="DMG2301L-Transistor_FET">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMG2301L-Transistor_FET</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Bast_WAN-rescue" part="RAK4260-electroniccats">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RAK4260-electroniccats</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="RFC" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="PA27" type="input"/>
+        <pin num="5" name="PA06" type="input"/>
+        <pin num="6" name="PA07" type="input"/>
+        <pin num="7" name="AIN0_PA08" type="input"/>
+        <pin num="8" name="AIN1_PA09" type="input"/>
+        <pin num="9" name="PB22" type="input"/>
+        <pin num="10" name="GND" type="input"/>
+        <pin num="11" name="VCC" type="input"/>
+        <pin num="12" name="VCC" type="input"/>
+        <pin num="13" name="SCL" type="input"/>
+        <pin num="14" name="SDA" type="input"/>
+        <pin num="15" name="PA15" type="input"/>
+        <pin num="16" name="PA14" type="input"/>
+        <pin num="17" name="GND" type="input"/>
+        <pin num="18" name="GND" type="input"/>
+        <pin num="19" name="PA19" type="input"/>
+        <pin num="20" name="PA18" type="input"/>
+        <pin num="21" name="PA28" type="input"/>
+        <pin num="22" name="PA23" type="input"/>
+        <pin num="23" name="PA22" type="input"/>
+        <pin num="24" name="PB23" type="input"/>
+        <pin num="25" name="PB02" type="input"/>
+        <pin num="26" name="PA25_USB_P" type="input"/>
+        <pin num="27" name="PA24_USB_N" type="input"/>
+        <pin num="28" name="GND" type="input"/>
+        <pin num="29" name="RST" type="input"/>
+        <pin num="30" name="PA30" type="input"/>
+        <pin num="31" name="PA31" type="input"/>
+        <pin num="32" name="PA04" type="input"/>
+        <pin num="33" name="PA05" type="input"/>
+        <pin num="34" name="PB03" type="input"/>
+        <pin num="35" name="GND" type="input"/>
+        <pin num="36" name="GND" type="input"/>
+        <pin num="37" name="GND" type="input"/>
+        <pin num="38" name="GND" type="input"/>
+        <pin num="39" name="GND" type="input"/>
+        <pin num="40" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Battery_Management" part="MCP73831-3-OT">
+      <description>Single cell, Li-Ion/Li-Po charge management controller, 4.35V, Tri-State Status Output, in SOT23-5 package</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73831-3-OT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_out"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x12">
+      <description>Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x12</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x16">
+      <description>Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x16</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x01">
+      <description>Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Antenna_Shield">
+      <description>Antenna with extra pin for shielding</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">AE</field>
+        <field name="Value">Antenna_Shield</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="Shield" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="MBR340">
+      <description>40V 3A Schottky Barrier Rectifier Diode, DO-201AD</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF</docs>
+      <footprints>
+        <fp>D*DO?201AD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MBR340</field>
+        <field name="Footprint">Diode_THT:D_DO-201AD_P15.24mm_Horizontal</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Bast_WAN-rescue">
+      <uri>C:\Users\DELL\OneDrive\Documentos\GitHub\BastWAN\Hardware/Bast_WAN-rescue.lib</uri>
+    </library>
+    <library logical="Battery_Management">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Battery_Management.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="VCC" pintype="input"/>
+      <node ref="U1" pin="12" pinfunction="VCC" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="VOUT" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="+BATT">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="VBAT" pintype="power_out"/>
+    </net>
+    <net code="3" name="/A0">
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="AIN1_PA09" pintype="input"/>
+    </net>
+    <net code="4" name="/A1">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="AIN0_PA08" pintype="input"/>
+    </net>
+    <net code="5" name="/A2">
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PA07" pintype="input"/>
+    </net>
+    <net code="6" name="/A3">
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PA06" pintype="input"/>
+    </net>
+    <net code="7" name="/A4">
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="PA04" pintype="input"/>
+    </net>
+    <net code="8" name="/ANT">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="RFC" pintype="input"/>
+    </net>
+    <net code="9" name="/D+">
+      <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U1" pin="26" pinfunction="PA25_USB_P" pintype="input"/>
+    </net>
+    <net code="10" name="/D-">
+      <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U1" pin="27" pinfunction="PA24_USB_N" pintype="input"/>
+    </net>
+    <net code="11" name="/D3">
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U1" pin="34" pinfunction="PB03" pintype="input"/>
+    </net>
+    <net code="12" name="/D5">
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="PA27" pintype="input"/>
+    </net>
+    <net code="13" name="/D6">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="PB22" pintype="input"/>
+    </net>
+    <net code="14" name="/D9">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="PA15" pintype="input"/>
+    </net>
+    <net code="15" name="/D10">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="PA14" pintype="input"/>
+    </net>
+    <net code="16" name="/D11">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="PA05" pintype="input"/>
+    </net>
+    <net code="17" name="/D12">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="PA28" pintype="input"/>
+    </net>
+    <net code="18" name="/D13">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="PA22" pintype="input"/>
+    </net>
+    <net code="19" name="/EN">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="20" name="/MISO">
+      <node ref="J3" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="PA23" pintype="input"/>
+    </net>
+    <net code="21" name="/MOSI">
+      <node ref="J3" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="PB02" pintype="input"/>
+    </net>
+    <net code="22" name="/RST">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="RST" pintype="input"/>
+    </net>
+    <net code="23" name="/RX">
+      <node ref="J3" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="PA19" pintype="input"/>
+    </net>
+    <net code="24" name="/SCK">
+      <node ref="J3" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="PB23" pintype="input"/>
+    </net>
+    <net code="25" name="/SCL">
+      <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="SCL" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="26" name="/SDA">
+      <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="SDA" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/SWCLK">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="PA30" pintype="input"/>
+    </net>
+    <net code="28" name="/SWDIO">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="PA31" pintype="input"/>
+    </net>
+    <net code="29" name="/TX">
+      <node ref="J3" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="PA18" pintype="input"/>
+    </net>
+    <net code="30" name="GND">
+      <node ref="AE1" pin="2" pinfunction="Shield" pintype="input"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J1" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="J3" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="10" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="17" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="18" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="28" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="35" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="36" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="37" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="38" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="39" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="40" pinfunction="GND" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="31" name="Net-(AE1-Pad1)">
+      <node ref="AE1" pin="1" pinfunction="A" pintype="input"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="33" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="PROG" pintype="input"/>
+    </net>
+    <net code="36" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="STAT" pintype="output"/>
+    </net>
+    <net code="37" name="VBUS">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="38" name="unconnected-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
